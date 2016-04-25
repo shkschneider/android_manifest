@@ -54,6 +54,7 @@ _Although this work could very easily be ported to any other Nexus device._
 - Refreshed stock Dialer
 - _vendor/shk/build.sh_ bash script
 - _vendor/shk/androids.sh_ bash script
+- _vendor/shk/update.sh_ bash script
 
 See:
 * https://github.com/shkschneider/android_build
