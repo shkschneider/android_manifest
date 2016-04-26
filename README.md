@@ -68,8 +68,8 @@ See:
 
 For this ROM:
 - [AOSP](https://android.googlesource.com/)
-- [Chroma-Aosp](https://github.com/Chroma-Aosp)
-- [TeamExodus](https://github.com/TeamExodus)
+- [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
+- [TeamExodus](https://github.com/TeamExodus) ([9c36be6](https://github.com/TeamExodus/frameworks_base/commit/9c36be651e83fb039a262682839bd920b033007a))
 - [Google](https://developers.google.com/android/nexus/drivers)
 
 For everything else:
