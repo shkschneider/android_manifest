@@ -51,7 +51,8 @@ _Although this work could very easily be ported to any other Nexus device._
 - Open GApps permissions
 - Disabled OTAs
 - Do not flash recovery
-- Refreshed stock Dialer
+- Refreshed stock icons
+- (Optional) Smart Quick Settings pull-down
 - _vendor/shk/build.sh_ bash script
 - _vendor/shk/androids.sh_ bash script
 - _vendor/shk/update.sh_ bash script
