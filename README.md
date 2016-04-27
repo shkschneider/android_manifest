@@ -80,11 +80,11 @@ See:
 For this ROM:
 - [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
 - [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
+- [CyanogenMod](https://github.com/CyanogenMod)
 - [TeamExodus](https://github.com/TeamExodus) ([9c36be6](https://github.com/TeamExodus/frameworks_base/commit/9c36be651e83fb039a262682839bd920b033007a))
 - [Google](https://developers.google.com/android/nexus/drivers)
 
 For everything else:
-- [CyanogenMod](https://github.com/CyanogenMod)
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
 
 ## Build for emulator
