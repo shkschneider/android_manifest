@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="shk"
-           fetch="https://github.com/shkschneider" />
+  <remote  name="github"
+           fetch="https://github.com" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="android_build" remote="shk" revision="shk-marshmallow" />
+  <project path="build" name="shkschneider/android_build" remote="github" revision="shk-marshmallow" />
 
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="shk" revision="shk-marshmallow" />
+  <project path="frameworks/base" name="shkschneider/android_frameworks_base" remote="github" revision="shk-marshmallow" />
 
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="shk" revision="shk-marshmallow" />
+  <project path="packages/apps/Settings" name="shkschneider/android_packages_apps_Settings" remote="github" revision="shk-marshmallow" />
 
-  <project path="vendor/shk" name="android_vendor_shk" remote="shk" revision="shk-marshmallow" />
+  <project path="vendor/shk" name="shkschneider/android_vendor_shk" remote="github" revision="shk-marshmallow" />
 
 </manifest>
