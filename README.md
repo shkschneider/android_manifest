@@ -13,19 +13,19 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* ShkMod: **16.04.XX** (follows [Nexus Security Bulletins](http://source.android.com/security/bulletin/index.html))
-  * Format: _YEAR.MONTH.DAY_ of the latest integrated _Nexus Security Bulletin_.
+* **ShkMod: 16.04.00**
+  * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Nexus Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Nexus Security Bulletin_ as last digits (> 00).
-* Android: **6.0.1** ([android-6.0.1_r30](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds))
-
+  * Subsequent updates might appear, incrementing the last digits even more.
+* **Android: 6.0.1** [android-6.0.1_r30](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
 ## Clone
 
 Regular [AOSP download](https://source.android.com/source/downloading.html):
 <pre>$ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
 Clone this repository (alters AOSP):
-<pre>$ git clone https://github.com/shkschneider/android_manifest.git .repo/local_manifests</pre>
+<pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
 Sync:
 <pre>$ repo sync</pre>
 
@@ -33,10 +33,9 @@ Sync:
 
 List of available (configured) targets (devices):
 <pre>$ ./vendor/shk/build.sh
-shkmod_hammerheader-user # Nexus 5
-shkmod_emulator-eng</pre>
+...</pre>
 
-_Although this work could very easily be ported to any other Nexus device, maybe even other devices &mdash; this is AOSP, a solid build for Nexus devices and a solid base for other devices (modulo the proprietary blobs)._
+_This work could very easily be ported to any other Nexus device, maybe even other devices &mdash; this is AOSP, a solid build for Nexus devices and a solid base for other devices (modulo the proprietary blobs)._
 
 ## Features
 
@@ -58,18 +57,19 @@ _Although this work could very easily be ported to any other Nexus device, maybe
 - Displays applications' names while optimizing during boot
 - Open GApps permissions
 - Disabled OTAs
-- Do not flash recovery
+- Does not flash recovery
 - Refreshed stock icons
-- (Optional) Smart Quick Settings pull-down
+- (Configurable) Smart Quick Settings pull-down
 
-Scripts:
+### Scripts
 
 * _vendor/shk/androids.sh_: lists all AOSP branches (version sort)
 * _vendor/shk/build.sh_: builds _ShkMod_
 * _vendor/shk/envsetup.sh_: minimalist envsetup for emulator target
 * _vendor/shk/update.sh_: updates _ShkMod_ repositories from AOSP (pull)
 
-See:
+### See
+
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
 * https://github.com/shkschneider/android_packages_apps_Settings
@@ -87,24 +87,31 @@ For this ROM:
 For everything else:
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
 
-## Build for emulator
+## Build
+
+### For emulator
 
 _The build process has only been tested on Linux x86_64._
 
 <pre>$ ./vendor/shk/build.sh shkmod_emulator-eng</pre>
 
-This makes the images to be used by the emulator. Run the last given command to start it and try the ROM on the emulator.
+This makes the images to be used by the emulator.
+<br />Run the last given command to start it and try the ROM on the emulator.
 
-## Build for device
+### For device
 
-<pre>$ ./vendor/shk/build.sh shkmod_hammerhead-user</pre>
+<pre>$ ./vendor/shk/build.sh shkmod_hammerhead-user
+...
+rom-shkmod-{device}-{ro.mod.version}-{revision}-{buildId}.zip
+stock-shkmod-{device}-{ro.mod.version}-{revision}-{buildId}.zip</pre>
 
 The _rom-*.zip_ file is what you would want to flash on your device using a custom recovery.
-The _stock-*.zip_ file contains all final images that you might want to use with _fastboot_.
+<br />The _stock-*.zip_ file contains all final images that you might want to use with _fastboot_.
 
 ## AOSP Apps
 
 - Downloads
+- Email
 - Gallery
 - Phone
 - Settings
