@@ -60,9 +60,7 @@ _Although this work could very easily be ported to any other Nexus device._
 See:
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
-* https://github.com/shkschneider/android_packages_apps_Dialer
 * https://github.com/shkschneider/android_packages_apps_Settings
-* https://github.com/shkschneider/android_system_core
 * https://github.com/shkschneider/android_vendor_shk
 
 ## Credits
