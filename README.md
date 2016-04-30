@@ -23,7 +23,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 ## Clone
 
 Regular [AOSP download](https://source.android.com/source/downloading.html):
-<pre>$ repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
+<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
 Clone this repository (alters AOSP):
 <pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
 Sync:
