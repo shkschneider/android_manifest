@@ -20,23 +20,6 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
   * Subsequent updates might appear, incrementing the last digits even more.
 * **Android: 6.0.1** [android-6.0.1_r30](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
-## Clone
-
-Regular [AOSP download](https://source.android.com/source/downloading.html):
-<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
-Clone this repository (alters AOSP):
-<pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
-Sync:
-<pre>$ repo sync</pre>
-
-## Devices
-
-List of available (configured) targets (devices):
-<pre>$ ./vendor/shk/build.sh
-...</pre>
-
-_This work could very easily be ported to any other Nexus device, maybe even other devices &mdash; this is AOSP, a solid build for Nexus devices and a solid base for other devices (modulo the proprietary blobs)._
-
 ## Features
 
 - (Optional) Music rocker (skip tracks while screen is off)
@@ -75,17 +58,22 @@ _This work could very easily be ported to any other Nexus device, maybe even oth
 * https://github.com/shkschneider/android_packages_apps_Settings
 * https://github.com/shkschneider/android_vendor_shk
 
-## Credits
+## Devices
 
-For this ROM:
-- [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
-- [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
-- [CyanogenMod](https://github.com/CyanogenMod)
-- [TeamExodus](https://github.com/TeamExodus) ([9c36be6](https://github.com/TeamExodus/frameworks_base/commit/9c36be651e83fb039a262682839bd920b033007a))
-- [Google](https://developers.google.com/android/nexus/drivers)
+List of available (configured) targets (devices):
+<pre>$ ./vendor/shk/build.sh
+...</pre>
 
-For everything else:
-- [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
+_This work could very easily be ported to any other Nexus device, maybe even other devices &mdash; this is AOSP, a solid build for Nexus devices and a solid base for other devices (modulo the proprietary blobs)._
+
+## Clone
+
+Regular [AOSP download](https://source.android.com/source/downloading.html):
+<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
+Clone this repository (alters AOSP):
+<pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
+Sync:
+<pre>$ repo sync</pre>
 
 ## Build
 
@@ -123,3 +111,15 @@ _shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purposes.
 ## Google Apps
 
 This ROM comes _without_ Google Apps. [Open GApps](http://opengapps.org) are recommended.
+
+## Credits
+
+For this ROM:
+- [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
+- [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
+- [CyanogenMod](https://github.com/CyanogenMod)
+- [TeamExodus](https://github.com/TeamExodus) ([9c36be6](https://github.com/TeamExodus/frameworks_base/commit/9c36be651e83fb039a262682839bd920b033007a))
+- [Google](https://developers.google.com/android/nexus/drivers)
+
+For everything else:
+- [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
