@@ -5,7 +5,9 @@
            fetch="https://github.com" />
 
   <remove-project name="platform/build" />
-  <project path="build" name="shkschneider/android_build" remote="github" revision="shk-marshmallow" />
+  <project path="build" name="shkschneider/android_build" remote="github" revision="shk-marshmallow">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="shkschneider/android_frameworks_base" remote="github" revision="shk-marshmallow" />
