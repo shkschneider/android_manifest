@@ -43,6 +43,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - Does not flash recovery
 - Refreshed stock icons
 - (Configurable) Smart Quick Settings pull-down
+- Keyboard supports gesture input (native library provided)
 
 ### Scripts
 
@@ -56,6 +57,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
 * https://github.com/shkschneider/android_packages_apps_Settings
+* https://github.com/shkschneider/android_packages_inputmethods_LatinIME
 * https://github.com/shkschneider/android_vendor_shk
 
 ## Devices
@@ -83,7 +85,7 @@ _The build process has only been tested on Linux x86_64._
 
 <pre>$ ./vendor/shk/build.sh shkmod_emulator-eng</pre>
 
-This makes the images to be used by the emulator.
+This makes the images to be used by the emulator (64-bits only).
 <br />Run the last given command to start it and try the ROM on the emulator.
 
 ### For device
@@ -118,8 +120,9 @@ For this ROM:
 - [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
 - [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
 - [CyanogenMod](https://github.com/CyanogenMod)
-- [TeamExodus](https://github.com/TeamExodus) ([9c36be6](https://github.com/TeamExodus/frameworks_base/commit/9c36be651e83fb039a262682839bd920b033007a))
 - [Google](https://developers.google.com/android/nexus/drivers)
+- [OpenGApps](http://opengapps.org) ([Google Swipe library](https://github.com/opengapps/opengapps/wiki/Stock-Package))
+- [TeamExodus](https://github.com/TeamExodus) ([OpenGApps support](https://github.com/opengapps/opengapps/wiki/Notes-for-Android-6.0))
 
 For everything else:
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
