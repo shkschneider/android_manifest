@@ -13,12 +13,12 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.05.00**
+* **ShkMod: 16.05.02**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
   * Subsequent updates might appear, incrementing the last digits even more.
-* **Android: 6.0.1** [android-6.0.1_r30](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
+* **Android: 6.0.1** [android-6.0.1_r43](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
 ## Features
 
