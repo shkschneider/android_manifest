@@ -70,7 +70,7 @@ _This work could very easily be ported to any other Nexus device, maybe even oth
 
 ## Clone
 
-Regular [AOSP download](https://source.android.com/source/downloading.html):
+Regular [AOSP download](https://source.android.com/source/downloading.html) (including [GPG public key](https://source.android.com/source/downloading.html#verifying-git-tags)):
 <pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r30</pre>
 Clone this repository (alters AOSP):
 <pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
