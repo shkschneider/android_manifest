@@ -79,9 +79,9 @@ Sync:
 
 ## Build
 
-### For emulator
-
 _The build process has only been tested on Linux x86_64._
+
+### For emulator
 
 <pre>$ ./vendor/shk/build.sh shkmod_emulator-eng</pre>
 
@@ -92,8 +92,8 @@ This makes the images to be used by the emulator (64-bits only).
 
 <pre>$ ./vendor/shk/build.sh shkmod_hammerhead-user
 ...
-rom-shkmod-{device}-{ro.mod.version}-{revision}-{buildId}.zip
-stock-shkmod-{device}-{ro.mod.version}-{revision}-{buildId}.zip</pre>
+rom-${modname}-${modversion}-${device}-android-${androidVersion}-${androidBuildId}.zip
+stock-${modname}-${modversion}-${device}-android-${androidVersion}-${androidBuildId}.zip</pre>
 
 The _rom-*.zip_ file is what you would want to flash on your device using a custom recovery.
 <br />The _stock-*.zip_ file contains all final images that you might want to use with _fastboot_.
@@ -112,7 +112,8 @@ _shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purposes.
 
 ## Google Apps
 
-This ROM comes _without_ Google Apps. [Open GApps](http://opengapps.org) are recommended.
+This ROM comes _without_ Google Apps.
+<br />[Open GApps](http://opengapps.org) are recommended.
 
 ## Credits
 
