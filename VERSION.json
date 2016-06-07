@@ -1,10 +1,10 @@
 {
 	"api": 23,
-	"buildId": "MOB30J",
-	"revision": "android-6.0.1_r43",
-	"securityPatch": "2016-05-02",
+	"buildId": "MOB30M",
+	"revision": "android-6.0.1_r46",
+	"securityPatch": "2016-06-01",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.05.02",
+	"ro.mod.version": "16.06.07",
 	"devices": [
 		"shamu",
 		"hammerhead",
