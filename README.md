@@ -44,6 +44,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - Refreshed stock icons
 - (Configurable) Smart Quick Settings pull-down
 - Keyboard supports gesture input (native library provided)
+- Refreshed Gallery app
 
 ### Scripts
 
@@ -57,6 +58,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
+* https://github.com/shkschneider/android_packages_apps_Gallery2
 * https://github.com/shkschneider/android_packages_apps_Settings
 * https://github.com/shkschneider/android_packages_inputmethods_LatinIME
 * https://github.com/shkschneider/android_vendor_shk
@@ -93,8 +95,8 @@ This makes the images to be used by the emulator (64-bits only).
 
 <pre>$ ./vendor/shk/build.sh shkmod_hammerhead-user
 ...
-rom-${modname}-${modversion}-${device}-android-${androidVersion}-${androidBuildId}.zip
-stock-${modname}-${modversion}-${device}-android-${androidVersion}-${androidBuildId}.zip</pre>
+rom-${modName}-${modVersion}-${device}-android-${androidVersion}-${androidBuildId}.zip
+stock-${modName}-${modVersion}-${device}-android-${androidVersion}-${androidBuildId}.zip</pre>
 
 The _rom-*.zip_ file is what you would want to flash on your device using a custom recovery.
 <br />The _stock-*.zip_ file contains all final images that you might want to use with _fastboot_.
