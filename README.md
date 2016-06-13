@@ -101,21 +101,24 @@ stock-${modName}-${modVersion}-${device}-android-${androidVersion}-${androidBuil
 The _rom-*.zip_ file is what you would want to flash on your device using a custom recovery.
 <br />The _stock-*.zip_ file contains all final images that you might want to use with _fastboot_.
 
-## AOSP Apps
+## Apps
 
+*This ROM does not attempt (nor claim) to live outside of Google's ecosystem.*
+
+Thus, a lot of (abandonware or duplicated) AOSP apps were removed, only to keep a few:
+- Browser
 - Downloads
 - Email
 - Gallery
 - Phone
 - Settings
 
-Indeed, apps were removed.
+The bare minimum indeed.
+Feel free to use the AOSP Browser to get APKs or even use an alternative app repository.
 
-_shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purposes.
+The _shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purposes.
 
-## Google Apps
-
-This ROM comes _without_ Google Apps.
+**This ROM comes _without_ Google Apps.**
 <br />[Open GApps](http://opengapps.org) are recommended.
 
 ## Credits
