@@ -1,13 +1,15 @@
 {
 	"api": 23,
-	"buildId": "MOB30M",
-	"revision": "android-6.0.1_r46",
-	"securityPatch": "2016-06-01",
+	"buildId": "MTC20F",
+	"revision": "android-6.0.1_r62",
+	"securityPatch": "2016-08-05",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.06.07",
+	"ro.mod.version": "16.08.05",
 	"devices": [
-		"shamu",
+		"angler",
+		"bullhead",
+		"emulator",
 		"hammerhead",
-		"emulator"
+		"shamu"
 	]
 }
