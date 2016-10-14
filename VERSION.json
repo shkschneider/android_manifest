@@ -1,10 +1,10 @@
 {
 	"api": 23,
-	"buildId": "MTC20F",
-	"revision": "android-6.0.1_r62",
-	"securityPatch": "2016-08-05",
+	"buildId": "M4B30X",
+	"revision": "android-6.0.1_r72",
+	"securityPatch": "2016-10-05",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.08.05",
+	"ro.mod.version": "16.10.14",
 	"devices": [
 		"angler",
 		"bullhead",
