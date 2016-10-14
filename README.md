@@ -13,15 +13,17 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.08.05**
+* **ShkMod: 16.10.14**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
   * Subsequent updates might appear, incrementing the last digits even more.
-* **Android: 6.0.1** [android-6.0.1_r62](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
+* **Android: 6.0.1** [android-6.0.1_r72](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
 ## Features
 
+- Configurable lock pattern size
+- (Optional) Ambient Display
 - (Optional) Music rocker (skip tracks while screen is off)
 - (Optional) Quick Settings one-finger pull-down (right side of the status bar)
 - Advanced reboot
@@ -74,7 +76,7 @@ _This work could very easily be ported to any other Nexus device, maybe even oth
 ## Clone
 
 Regular [AOSP download](https://source.android.com/source/downloading.html) (including [GPG public key](https://source.android.com/source/downloading.html#verifying-git-tags)):
-<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r62</pre>
+<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r72</pre>
 Clone this repository (alters AOSP):
 <pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
 Sync:
@@ -130,6 +132,7 @@ For this ROM:
 - [Google](https://developers.google.com/android/nexus/drivers)
 - [OpenGApps](http://opengapps.org) ([Google Swipe library](https://github.com/opengapps/opengapps/wiki/Stock-Package))
 - [TeamExodus](https://github.com/TeamExodus) ([OpenGApps support](https://github.com/opengapps/opengapps/wiki/Notes-for-Android-6.0))
+- [Gabriele Lucci](https://github.com/gabrielelucci/ambient-display-rro)
 
 For everything else:
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
