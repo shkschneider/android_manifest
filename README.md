@@ -45,7 +45,6 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - Does not flash recovery
 - Refreshed stock icons
 - (Configurable) Smart Quick Settings pull-down
-- Keyboard supports gesture input (native library provided)
 - Refreshed Gallery app
 
 ### Scripts
@@ -62,7 +61,6 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 * https://github.com/shkschneider/android_frameworks_base
 * https://github.com/shkschneider/android_packages_apps_Gallery2
 * https://github.com/shkschneider/android_packages_apps_Settings
-* https://github.com/shkschneider/android_packages_inputmethods_LatinIME
 * https://github.com/shkschneider/android_vendor_shk
 
 ## Devices
@@ -108,6 +106,8 @@ The _rom-*.zip_ file is what you would want to flash on your device using a cust
 *This ROM does not attempt (nor claim) to live outside of Google's ecosystem.*
 
 Thus, a lot of (abandonware or duplicated) AOSP apps were removed, only to keep a few:
+- AOSP Launcher
+- AOSP Keyboard
 - Browser
 - Downloads
 - Email
@@ -128,11 +128,11 @@ The _shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purpos
 For this ROM:
 - [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
 - [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
-- [CyanogenMod](https://github.com/CyanogenMod)
 - [Google](https://developers.google.com/android/nexus/drivers)
-- [OpenGApps](http://opengapps.org) ([Google Swipe library](https://github.com/opengapps/opengapps/wiki/Stock-Package))
 - [TeamExodus](https://github.com/TeamExodus) ([OpenGApps support](https://github.com/opengapps/opengapps/wiki/Notes-for-Android-6.0))
 - [Gabriele Lucci](https://github.com/gabrielelucci/ambient-display-rro)
 
 For everything else:
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
+- [CyanogenMod](https://github.com/CyanogenMod)
+- [OpenGApps](http://opengapps.org)

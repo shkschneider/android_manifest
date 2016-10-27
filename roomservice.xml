@@ -18,9 +18,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="shkschneider/android_packages_apps_Settings" remote="github" revision="shk-marshmallow" />
 
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="shkschneider/android_packages_inputmethods_LatinIME" remote="github" revision="shk-marshmallow" />
-
   <project path="vendor/shk" name="shkschneider/android_vendor_shk" remote="github" revision="shk-marshmallow" />
 
 </manifest>
