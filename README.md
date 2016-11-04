@@ -13,7 +13,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.10.14**
+* **ShkMod: 16.11.04**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
@@ -38,14 +38,16 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - (Optional) Pin scramble
 - System UI Tuner enabled by default (icon invisible from status bar)
 - Speed up animations by 25%
-- Accepts Google's WebView as alternative
 - Displays applications' names while optimizing during boot
-- Open GApps permissions
-- Disabled OTAs
 - Does not flash recovery
 - Refreshed stock icons
 - (Configurable) Smart Quick Settings pull-down
 - Refreshed Gallery app
+
+Google additions:
+- Accepts Google's WebView as alternative
+- Open GApps permissions
+- Disabled OTAs
 
 ### Scripts
 
@@ -60,8 +62,10 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
 * https://github.com/shkschneider/android_packages_apps_Gallery2
+* https://github.com/shkschneider/android_packages_apps_Messaging
 * https://github.com/shkschneider/android_packages_apps_Settings
 * https://github.com/shkschneider/android_vendor_shk
+* https://github.com/shkschneider/android_vendor_google
 
 ## Devices
 
@@ -105,20 +109,18 @@ The _rom-*.zip_ file is what you would want to flash on your device using a cust
 
 *This ROM does not attempt (nor claim) to live outside of Google's ecosystem.*
 
-Thus, a lot of (abandonware or duplicated) AOSP apps were removed, only to keep a few:
 - AOSP Launcher
 - AOSP Keyboard
 - Browser
+- Calculator
+- Calendar
+- Contacts
 - Downloads
 - Email
 - Gallery
+- Messaging
 - Phone
 - Settings
-
-The bare minimum indeed.
-Feel free to use the AOSP Browser to get APKs or even use an alternative app repository.
-
-The _shkmod_emulator-eng_ target adds back a lot of AOSP apps for testing purposes.
 
 **This ROM comes _without_ Google Apps.**
 <br />[Open GApps](http://opengapps.org) are recommended.
