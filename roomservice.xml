@@ -16,7 +16,7 @@
   <project path="packages/apps/Gallery2" name="shkschneider/android_packages_apps_Gallery2" remote="github" revision="shk-marshmallow" />
 
   <remove-project name="platform/packages/apps/Messaging" />
-  <project path="packages/apps/Messaging" name="shkschneider/android_packages_apps_Messaging" remote="github" revision="master" />
+  <project path="packages/apps/Messaging" name="shkschneider/android_packages_apps_Messaging" remote="github" revision="shk-marshmallow" />
 
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="shkschneider/android_packages_apps_Settings" remote="github" revision="shk-marshmallow" />
