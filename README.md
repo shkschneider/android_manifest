@@ -13,7 +13,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.04**
+* **ShkMod: 16.11.09**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
@@ -43,11 +43,22 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - Refreshed stock icons
 - (Configurable) Smart Quick Settings pull-down
 - Refreshed Gallery app
-
-Google additions:
-- Accepts Google's WebView as alternative
-- Open GApps permissions
+- Deactivable Messenging app
 - Disabled OTAs
+
+Google additions (optional):
+- Accepts Google's WebView as alternative
+- Keyboard gesture libraries
+- Google's DNS
+- Google's backup
+
+### Manifests
+
+* _cleanup.xml_: removes unecessary projects
+* _roomservice.xml_: default ; ShkMod modifications to AOSP
+* _google.xml_: (optional) Google-related stuff
+
+You can remove the last one to get a more OSS experience.
 
 ### Scripts
 
@@ -56,6 +67,7 @@ Google additions:
 * _vendor/shk/envsetup.sh_: minimalist envsetup for emulator target
 * _vendor/shk/update.sh_: updates _ShkMod_ repositories from AOSP (pull)
 * _vendor/shk/hosts.sh_: hosts files to block ads (not bundled inside the ROM)
+* _vendor/google/playservices.sh_: installs Google's Play Services onto the emulator
 
 ### See
 
@@ -107,7 +119,9 @@ The _rom-*.zip_ file is what you would want to flash on your device using a cust
 
 ## Apps
 
-*This ROM does not attempt (nor claim) to live outside of Google's ecosystem.*
+*This ROM does not claim to live outside of Google's ecosystem. Yet it can.*
+
+This ROM comes with AOSP apps (that can all be disabled) but [no Google Apps](http://android-developers.blogspot.fr/2009/09/note-on-google-apps-for-android.html):
 
 - AOSP Launcher
 - AOSP Keyboard
@@ -120,10 +134,24 @@ The _rom-*.zip_ file is what you would want to flash on your device using a cust
 - Gallery
 - Messaging
 - Phone
-- Settings
+- Settings (cannot be disable)
 
-**This ROM comes _without_ Google Apps.**
-<br />[Open GApps](http://opengapps.org) are recommended.
+However, the default build process includes some Google related configurations and blobs to properly support Google Apps.
+<br />If you want Google Apps, [Open GApps](http://opengapps.org) are recommended.
+
+If you want the ROM clean of Google Apps, remove _vendor/google/_ dependency (_google.xml_).
+In such a case, [F-Droid](https://f-droid.org) is automatically included (uninstallable). I then recommend [SimpleMobileTools](https://github.com/SimpleMobileTools) apps to start with.
+
+## Recovery
+
+This ROM made it so the recovery is UNTOUCHED.
+
+## Root
+
+This ROM comes without root.
+
+If you want root access, an Open Source variant is recommended:
+* [phh's SuperUser](http://superuser.phh.me) (more [@ xda-developers](http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394))
 
 ## Credits
 
@@ -131,10 +159,8 @@ For this ROM:
 - [AOSP](https://android.googlesource.com/) (and [Open Handset Alliance members](http://www.openhandsetalliance.com/oha_members.html))
 - [Chroma-Aosp](https://github.com/Chroma-Aosp) (mainly [zephiK](https://github.com/zephiK))
 - [Google](https://developers.google.com/android/nexus/drivers)
-- [TeamExodus](https://github.com/TeamExodus) ([OpenGApps support](https://github.com/opengapps/opengapps/wiki/Notes-for-Android-6.0))
 - [Gabriele Lucci](https://github.com/gabrielelucci/ambient-display-rro)
 
 For everything else:
 - [XDA-Developers](http://forum.xda-developers.com) ([2398805](http://forum.xda-developers.com/member.php?u=2398805))
 - [CyanogenMod](https://github.com/CyanogenMod)
-- [OpenGApps](http://opengapps.org)
