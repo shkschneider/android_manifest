@@ -22,7 +22,7 @@
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/docs" />
   <remove-project name="platform/developers/samples/android" />
-  <remove-project name="platform/development" />
+
   <remove-project name="platform/docs/source.android.com" />
 
   <remove-project name="platform/packages/apps/Calculator" />
