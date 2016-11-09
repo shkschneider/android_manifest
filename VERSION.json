@@ -1,10 +1,10 @@
 {
 	"api": 23,
-	"buildId": "M4B30X",
-	"revision": "android-6.0.1_r72",
-	"securityPatch": "2016-10-05",
+	"buildId": "MOK31K",
+	"revision": "android-6.0.1_r74",
+	"securityPatch": "2016-11-05",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.10.14",
+	"ro.mod.version": "16.11.10",
 	"devices": [
 		"angler",
 		"bullhead",
