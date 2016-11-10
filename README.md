@@ -13,12 +13,12 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.09**
+* **ShkMod: 16.11.10**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
   * Subsequent updates might appear, incrementing the last digits even more.
-* **Android: 6.0.1** [android-6.0.1_r72](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
+* **Android: 6.0.1** [android-6.0.1_r74](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
 ## Features
 
@@ -44,6 +44,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - (Configurable) Smart Quick Settings pull-down
 - Refreshed Gallery app
 - Deactivable Messenging app
+- Un-deactivable Dialer app
 - Disabled OTAs
 
 Google additions (optional):
@@ -73,6 +74,7 @@ You can remove the last one to get a more OSS experience.
 
 * https://github.com/shkschneider/android_build
 * https://github.com/shkschneider/android_frameworks_base
+* https://github.com/shkschneider/android_packages_apps_Dialer
 * https://github.com/shkschneider/android_packages_apps_Gallery2
 * https://github.com/shkschneider/android_packages_apps_Messaging
 * https://github.com/shkschneider/android_packages_apps_Settings
@@ -90,7 +92,7 @@ _This work could very easily be ported to any other Nexus device, maybe even oth
 ## Clone
 
 Regular [AOSP download](https://source.android.com/source/downloading.html) (including [GPG public key](https://source.android.com/source/downloading.html#verifying-git-tags)):
-<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r72</pre>
+<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r74</pre>
 Clone this repository (alters AOSP):
 <pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
 Sync:
@@ -133,7 +135,7 @@ This ROM comes with AOSP apps (that can all be disabled) but [no Google Apps](ht
 - Email
 - Gallery
 - Messaging
-- Phone
+- Phone (Dialer cannot be disable)
 - Settings (cannot be disable)
 
 However, the default build process includes some Google related configurations and blobs to properly support Google Apps.

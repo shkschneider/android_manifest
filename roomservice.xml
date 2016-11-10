@@ -29,6 +29,9 @@
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="shkschneider/android_frameworks_base" remote="github" revision="shk-marshmallow" />
 
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="shkschneider/android_packages_apps_Dialer" remote="github" revision="shk-marshmallow" />
+
   <remove-project name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="shkschneider/android_packages_apps_Gallery2" remote="github" revision="shk-marshmallow" />
 
