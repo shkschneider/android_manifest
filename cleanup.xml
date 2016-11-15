@@ -25,10 +25,6 @@
 
   <remove-project name="platform/docs/source.android.com" />
 
-  <remove-project name="platform/packages/apps/Calculator" />
-  <remove-project name="platform/packages/apps/Calendar" />
-  <remove-project name="platform/packages/apps/Camera" />
-  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Protips" />
