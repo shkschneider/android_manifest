@@ -13,7 +13,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.15**
+* **ShkMod: 16.11.16**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
@@ -46,12 +46,14 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 - Deactivable Messenging app
 - Un-deactivable Dialer app
 - Disabled OTAs
+- (Optional) Toast shows application icon
 
 Google additions (optional):
 - Accepts Google's WebView as alternative
-- Keyboard gesture libraries
 - Google's DNS
 - Google's backup
+- keyboard (decoder & swipe) libaries
+- Camera (interface) library
 
 ### Manifests
 
