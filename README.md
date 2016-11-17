@@ -13,7 +13,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.16**
+* **ShkMod: 16.11.17**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
