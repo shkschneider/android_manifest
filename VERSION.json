@@ -4,7 +4,7 @@
 	"revision": "android-6.0.1_r74",
 	"securityPatch": "2016-11-05",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.11.17",
+	"ro.mod.version": "16.11.29",
 	"devices": [
 		"emulator",
 		"hammerhead",
