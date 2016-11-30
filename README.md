@@ -13,7 +13,7 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.29**
+* **ShkMod: 16.11.30**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
@@ -112,6 +112,8 @@ This makes the images to be used by the emulator (64-bits only).
 <br />Run the last given command to start it and try the ROM on the emulator.
 
 ### For device
+
+You should get the proprietary blobs out of the device first: [Driver Binaries for Nexus Devices](https://developers.google.com/android/drivers).
 
 <pre>$ ./vendor/shk/build.sh shkmod_hammerhead-user
 ...
