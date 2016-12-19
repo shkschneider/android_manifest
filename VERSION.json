@@ -1,10 +1,10 @@
 {
 	"api": 23,
-	"buildId": "MOB31K",
-	"revision": "android-6.0.1_r74",
+        "buildId": "M4B30Z",
+	"revision": "android-6.0.1_r77",
 	"securityPatch": "2016-11-05",
 	"ro.mod.name": "shkmod",
-	"ro.mod.version": "16.11.30",
+	"ro.mod.version": "16.12.13",
 	"devices": [
 		"emulator",
 		"hammerhead",
