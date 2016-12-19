@@ -13,12 +13,12 @@ My work is licensed under the [Apache 2](http://www.apache.org/licenses/LICENSE-
 
 ## Versions
 
-* **ShkMod: 16.11.30**
+* **ShkMod: 16.12.13**
   * Format: _YEAR.MONTH.DAY_ (follows the latest integrated [Android Security Bulletins](http://source.android.com/security/bulletin/index.html))
   * _DAY_=00 means a work-in-progress.
   * Final release has the day of the _Android Security Bulletin_ as last digits (> 00).
   * Subsequent updates might appear, incrementing the last digits even more.
-* **Android: 6.0.1** [android-6.0.1_r74](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
+* **Android: 6.0.1** [android-6.0.1_r77](https://source.android.com/source/build-numbers.html#source-code-tags-and-builds)
 
 ## Features
 
@@ -94,7 +94,7 @@ _This work could very easily be ported to any other Nexus device, maybe even oth
 ## Clone
 
 Regular [AOSP download](https://source.android.com/source/downloading.html) (including [GPG public key](https://source.android.com/source/downloading.html#verifying-git-tags)):
-<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r74</pre>
+<pre>$ repo init --config-name -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r77</pre>
 Clone this repository (alters AOSP):
 <pre>$ git clone https://github.com/shkschneider/android_manifest.git -b shk-marshmallow .repo/local_manifests</pre>
 Sync:
