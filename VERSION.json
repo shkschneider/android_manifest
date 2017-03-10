@@ -1,7 +1,7 @@
 {
 	"api": 23,
         "buildId": "MOB31S",
-	"revision": "android-6.0.1_r78",
+	"revision": "android-6.0.1_r79",
 	"securityPatch": "2017-01-05",
 	"ro.mod.name": "shkmod",
 	"ro.mod.version": "17.01.31",
